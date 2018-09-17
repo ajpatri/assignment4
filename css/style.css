@@ -1,0 +1,20 @@
+.container {
+  margin-top: 1.0rem;
+  margin-bottom: 1.0rem;
+}
+
+/* Category Styling */
+.category-row {
+  padding: 0.5rem 0;
+}
+.category-row:nth-child(odd) {
+  background-color: #efefef;
+}
+.category-row:hover {
+  background-color: #ddd;
+}
+
+/* Item Styling */
+.item-description {
+  font-style: italic;
+}

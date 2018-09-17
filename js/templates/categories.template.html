@@ -1,0 +1,11 @@
+<div class="row category-row" ng-repeat="category in $ctrl.categories">
+  <div class="col-sm-1">
+    <a ui-sref="items({category: category.short_name})">{{ category.short_name }}</a>
+  </div>
+  <div class="col-sm-3">
+    {{category.name}}
+  </div>
+  <div class="col-sm-6">
+    <i>{{category.special_instructions}}</i>
+  </div>
+</div>
